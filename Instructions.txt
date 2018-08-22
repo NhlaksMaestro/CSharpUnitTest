@@ -1,0 +1,19 @@
+The solution has 2 projects:
+1. TestCode. 
+   This project contains a class called StatsCalculator that has 2 methods that must be implemented.
+   The SampleData class has test data so you can see the data structure you must use in order to complete the assignment.
+     If you want to pass the sample data into StatsCalculator: var statsCalc = new StatsCalculator(SampleData.Teams);
+2. TestCodeTests
+   This is a empty project. 
+   You are free to add any test and/or mocking framework in order to test the methods you must implemented in StatsCalculator.
+   Note we have added a commented out method just to show a very simple test. It is just for illustrative purposes.
+   
+   
+What must be completed:
+  Inside StatsCalculator.cs are 2 methods with ToDos that must be implemented. These are PlayerByPlayerNumber and TeamWinPercentage
+  Read the ToDo's in order to understand what each method must do.
+
+  You must implement these 2 methods. Please implemented any tests (in the test project) you feel are relevant. 
+
+Note that we have supplied a sample stub for IStatsWeighting in the test project.
+We are not concerned about the implementation of the Apply method in this interface (return 1 for the sake of this test and a exception if the player has done less than 100 races) but rather verifying it is called under the correct circumstances. 
